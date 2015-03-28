@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="请选择性别"
+	    android:textSize="20dp"
+	    android:layout_marginBottom="50dp"
+	    />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:scaleType="centerInside" >
+
+            <ImageView
+                android:id="@+id/female"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/w" />
+
+            <ImageView
+                android:id="@+id/female_select"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@id/female"
+                android:src="@drawable/duigou_down" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerInside" >
+
+            <ImageView
+                android:id="@+id/male"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/m" />
+
+            <ImageView
+                android:id="@+id/male_select"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@id/male"
+                android:src="@drawable/duigou_nor" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start_shape"
+        android:text="立刻体验!"
+        android:gravity="center"
+        android:layout_gravity="center" 
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="90dp"
+        />
+</LinearLayout>

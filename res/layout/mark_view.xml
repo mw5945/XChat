@@ -1,0 +1,18 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mark_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:padding="20dp"
+    android:singleLine="true"
+    android:text="s@string/null_string"
+    android:textColor="#6e3a1f"
+    android:textSize="16sp"
+    android:background="@drawable/mark_item_bg"
+    android:visibility="visible" >
+
+</TextView>
